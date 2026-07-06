@@ -1,39 +1,33 @@
-# Self-Auditing Clinical Decision Support
+# Self-Auditing Clinical Decision Support Agent
 
-This repository hosts a literature survey for a research prototype exploring self-auditing clinical AI: systems that move beyond prediction-only output toward evidence-grounded reasoning, claim verification, and reliability scoring.
+This repository contains the IEEE-style paper package for **Self-Auditing Clinical Decision Support Agent: An Agentic AI Architecture for Trustworthy Clinical Decision Support**.
 
-## Literature Survey
+The work presents a literature-informed architecture for clinical AI systems that separate prediction, retrieval, reasoning, verification, and reliability scoring into auditable layers. The central design principle is:
 
-- **Document:** [Self-Auditing Clinical AI Literature Survey](docs/self-auditing-clinical-ai-literature-survey.pdf)
-- **Author:** Bhargav Boyapati
-- **Institution:** University of Texas at Arlington
-- **Status:** Literature survey - in progress
-- **Date:** April 2026
+> No evidence, no claim.
+
+## Contents
+
+- [Bhargav_Boyapati_Self_Auditing_Clinical_AI_IEEE_Paper_Final.pdf](Bhargav_Boyapati_Self_Auditing_Clinical_AI_IEEE_Paper_Final.pdf) - Final rendered paper.
+- [Bhargav_Boyapati_Self_Auditing_Clinical_AI_IEEE_Paper_Final.tex](Bhargav_Boyapati_Self_Auditing_Clinical_AI_IEEE_Paper_Final.tex) - IEEE LaTeX source.
+- [architecture_clear.png](architecture_clear.png) - End-to-end clinical decision support architecture figure.
+- [verification_clear.pdf](verification_clear.pdf) - Self-auditing verification layer figure.
 
 ## Research Focus
 
-The survey is organized around the question:
+The paper focuses on trustworthy clinical decision support through:
 
-> How can healthcare AI move from prediction-only systems to verifiable, evidence-grounded reasoning systems?
+- Interpretable clinical risk prediction
+- Clinical evidence retrieval
+- Evidence-constrained reasoning
+- Claim-level self-auditing verification
+- Reliability scoring
+- Transparent clinical decision-support output
 
-It reviews research across clinical decision support, explainable AI, retrieval-augmented generation, guideline grounding, self-verification, and reliability scoring. The proposed architecture connects patient-context input with prediction, evidence retrieval, structured reasoning, verification, and transparent output.
+## Positioning
 
-## Survey Themes
+This is a research paper and prototype architecture package. It is not a clinically validated diagnostic system, regulatory-approved medical device, or deployment-ready healthcare product. Any implementation derived from this work requires clinical, ethical, privacy, and safety review before use in real healthcare settings.
 
-- Clinical decision support and the healthcare AI trust gap
-- Interpretable risk prediction for clinical workflows
-- Evidence retrieval and guideline grounding
-- Biomedical retrieval-augmented generation
-- Self-auditing, claim verification, and reliability scoring
-- Evaluation frameworks for trustworthy clinical AI
+## Build Notes
 
-## Repository Contents
-
-```text
-docs/
-  self-auditing-clinical-ai-literature-survey.pdf
-```
-
-## Important Note
-
-This repository is a research and literature-survey artifact. It does not claim clinical validation, regulatory approval, or deployment readiness. Any future prototype derived from this work should be evaluated with appropriate clinical, ethical, privacy, and safety review before use in real healthcare settings.
+The LaTeX source uses the IEEEtran conference template and local figure files. From the repository root, compile with a LaTeX distribution that includes `IEEEtran`, `graphicx`, `booktabs`, `tabularx`, `cite`, `microtype`, and `balance`.
