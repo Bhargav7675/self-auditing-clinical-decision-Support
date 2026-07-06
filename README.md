@@ -8,8 +8,8 @@ The work presents a literature-informed architecture for clinical AI systems tha
 
 ## Contents
 
-- [Bhargav_Boyapati_Self_Auditing_Clinical_AI_IEEE_Paper_Final.pdf](Bhargav_Boyapati_Self_Auditing_Clinical_AI_IEEE_Paper_Final.pdf) - Final rendered paper.
-- [Bhargav_Boyapati_Self_Auditing_Clinical_AI_IEEE_Paper_Final.tex](Bhargav_Boyapati_Self_Auditing_Clinical_AI_IEEE_Paper_Final.tex) - IEEE LaTeX source.
+- [Self_Auditing_Clinical_AI.pdf](Self_Auditing_Clinical_AI.pdf) - Final rendered paper.
+- [Self_Auditing_Clinical_AI.tex](Self_Auditing_Clinical_AI.tex) - IEEE LaTeX source.
 - [architecture_clear.png](architecture_clear.png) - End-to-end clinical decision support architecture figure.
 - [verification_clear.pdf](verification_clear.pdf) - Self-auditing verification layer figure.
 
